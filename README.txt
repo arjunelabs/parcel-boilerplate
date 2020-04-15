@@ -13,3 +13,5 @@ npm init
 npm i -D parcel-bundler sass @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs2
 
 npm run dev
+
+npm run build
