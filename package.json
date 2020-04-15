@@ -4,7 +4,8 @@
   "description": "This project contains SASS and babel and javasvript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel index.html --out-dir development -p 3000",
+    "build": "parcel build index.html --out-dir dist --public-url ./"
   },
   "author": "Arjun Shinde",
   "license": "MIT",
