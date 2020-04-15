@@ -1,2 +1,11 @@
+import Header from './header';
+import User from './User';
 import '../scss/app.scss';
-console.log('It works !!');
+
+const app = async () => {
+  document.getElementById('header').innerHTML = Header();
+  document.getElementById('user').innerHTML = await User();
+};
+
+// Init App
+app();
